@@ -1,0 +1,11 @@
+from Adafruit_BBIO.SPI import SPI
+from time import sleep as delay
+
+spi = SPI(0,0)
+spi.mode=0
+spi.msh = 125000
+
+while True:
+        print spi.xfer2([32, 11, 110, 22, 220])
+        print spi.xfer2([78, 44, 250, 102, 220])
+        delay(3.0)

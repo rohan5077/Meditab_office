@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-02T10:15:15.219088800Z</date>
+  <millis>1525256115219</millis>
+  <nanos>88800</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.251672900Z</date>
+  <millis>1525256115251</millis>
+  <nanos>672900</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.258190Z</date>
+  <millis>1525256115258</millis>
+  <nanos>190000</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.296793700Z</date>
+  <millis>1525256115296</millis>
+  <nanos>793700</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.315342900Z</date>
+  <millis>1525256115315</millis>
+  <nanos>342900</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.316936700Z</date>
+  <millis>1525256115316</millis>
+  <nanos>936700</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.318851800Z</date>
+  <millis>1525256115318</millis>
+  <nanos>851800</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.616144400Z</date>
+  <millis>1525256115616</millis>
+  <nanos>144400</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.620155100Z</date>
+  <millis>1525256115620</millis>
+  <nanos>155100</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Could not find any serial port. Please, connect device and ReScan</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:15.622161200Z</date>
+  <millis>1525256115622</millis>
+  <nanos>161200</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:20.735369900Z</date>
+  <millis>1525256120735</millis>
+  <nanos>369900</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:20.737375600Z</date>
+  <millis>1525256120737</millis>
+  <nanos>375600</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>found last saved serial port COM25</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:20.738879500Z</date>
+  <millis>1525256120738</millis>
+  <nanos>879500</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:26.211950700Z</date>
+  <millis>1525256126211</millis>
+  <nanos>950700</nanos>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Serial port COM25 save as default.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:26.213956100Z</date>
+  <millis>1525256126213</millis>
+  <nanos>956100</nanos>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-05-02T10:15:26.215960Z</date>
+  <millis>1525256126215</millis>
+  <nanos>960000</nanos>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open port COM25, baud 115200, 8N1</message>
+</record>

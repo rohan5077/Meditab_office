@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="13" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="POWERSTEP01">
+<wire x1="-5.5" y1="-7" x2="-5.5" y2="7" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-7" x2="5.5" y2="7" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-7" x2="5.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="7" x2="5.5" y2="7" width="0.127" layer="21"/>
+<rectangle x1="-2.71" y1="-2.345" x2="2.79" y2="2.345" layer="31"/>
+<rectangle x1="0.83" y1="6.19" x2="1.99" y2="7.39" layer="31"/>
+<rectangle x1="0.83" y1="-7.39" x2="1.99" y2="-6.19" layer="31"/>
+<smd name="OUTB2_2" x="-2.51" y="6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTB2_1" x="-0.31" y="6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTB1_2" x="0.31" y="6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTB1_1" x="2.51" y="6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTA2_1" x="-2.51" y="-6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTA2_2" x="-0.31" y="-6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTA1" x="0.31" y="-6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="OUTA1_1" x="2.51" y="-6.99" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<rectangle x1="-5.89" y1="4.23" x2="-5.15" y2="6.4" layer="31"/>
+<rectangle x1="3.57" y1="-7.39" x2="5.01" y2="-6.7" layer="31"/>
+<rectangle x1="5.15" y1="-6.4" x2="5.89" y2="-4.23" layer="31"/>
+<rectangle x1="3.57" y1="6.7" x2="5.01" y2="7.39" layer="31"/>
+<rectangle x1="5.15" y1="4.23" x2="5.89" y2="6.4" layer="31"/>
+<smd name="BUSY/SYNC" x="-5.49" y="-0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="SDO" x="-5.49" y="0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VDDIO" x="-5.49" y="0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="SDI" x="-5.49" y="1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="CK" x="-5.49" y="1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="CS" x="-5.49" y="1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="SENSEB_S" x="-5.49" y="2.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="FLAG" x="-5.49" y="-0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="SW" x="-5.49" y="-1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="STCK" x="-5.49" y="-1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="STBY/RESET" x="-5.49" y="-1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="GND" x="-5.49" y="2.65" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OUTB2" x="-5.49" y="3.27" dx="0.8" dy="0.2" layer="1"/>
+<smd name="SENSEA_S" x="-5.49" y="-2.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="GND_1" x="-5.49" y="-2.65" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OUTA2" x="-5.49" y="-3.27" dx="0.8" dy="0.2" layer="1"/>
+<smd name="GND_2" x="5.49" y="0" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VCC" x="5.49" y="-0.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VSREG" x="5.49" y="1.13" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VREG" x="5.49" y="1.85" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VCCREG" x="5.49" y="0.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="CP" x="5.49" y="-0.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OUTB1@1" x="5.49" y="3.27" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VBOOT" x="5.49" y="-1.53" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OSCIN" x="5.49" y="2.25" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OSCOUT" x="5.49" y="2.65" dx="0.8" dy="0.2" layer="1"/>
+<smd name="VS_12" x="5.49" y="-1.93" dx="0.8" dy="0.2" layer="1"/>
+<smd name="ADCIN" x="5.49" y="-2.65" dx="0.8" dy="0.2" layer="1"/>
+<smd name="OUTA1_2" x="5.49" y="-3.27" dx="0.8" dy="0.2" layer="1"/>
+<rectangle x1="-5.15" y1="3.83" x2="-3.01" y2="6.7" layer="31"/>
+<rectangle x1="-2.52" y1="2.76" x2="-0.22" y2="5.77" layer="31" rot="R180"/>
+<rectangle x1="3.01" y1="3.83" x2="5.15" y2="6.7" layer="31" rot="R180"/>
+<rectangle x1="-2.52" y1="-5.77" x2="-0.22" y2="-2.76" layer="31"/>
+<rectangle x1="0.22" y1="-5.77" x2="2.52" y2="-2.76" layer="31"/>
+<rectangle x1="3.01" y1="-6.7" x2="5.15" y2="-3.83" layer="31"/>
+<rectangle x1="0.22" y1="2.76" x2="2.52" y2="5.77" layer="31"/>
+<rectangle x1="-5.15" y1="-6.7" x2="-3.01" y2="-3.83" layer="31"/>
+<rectangle x1="-5.01" y1="6.7" x2="-3.57" y2="7.39" layer="31"/>
+<rectangle x1="-1.99" y1="6.19" x2="-0.83" y2="7.39" layer="31"/>
+<rectangle x1="-5.01" y1="-7.39" x2="-3.57" y2="-6.7" layer="31"/>
+<rectangle x1="-5.89" y1="-6.4" x2="-5.15" y2="-4.23" layer="31"/>
+<smd name="SENSEA_P" x="-1.41" y="-6.79" dx="1.16" dy="1.2" layer="1"/>
+<smd name="SENSEA_P@1" x="1.41" y="-6.79" dx="1.16" dy="1.2" layer="1"/>
+<smd name="SENSEB_P" x="-1.41" y="6.79" dx="1.16" dy="1.2" layer="1"/>
+<smd name="SENSEB_P@1" x="1.41" y="6.79" dx="1.16" dy="1.2" layer="1"/>
+<smd name="VS_1" x="-4.29" y="7.045" dx="1.44" dy="0.69" layer="1"/>
+<smd name="VS_11" x="4.2903" y="7.0448" dx="1.44" dy="0.69" layer="1"/>
+<smd name="VS_5" x="-4.2903" y="-7.0441" dx="1.44" dy="0.69" layer="1"/>
+<smd name="VS_7" x="4.2892" y="-7.0448" dx="1.44" dy="0.69" layer="1"/>
+<smd name="VS_2" x="-5.5202" y="5.3144" dx="0.74" dy="2.17" layer="1"/>
+<smd name="VS_3" x="-5.5195" y="-5.3144" dx="0.74" dy="2.17" layer="1"/>
+<smd name="VS_10" x="5.5197" y="5.3144" dx="0.74" dy="2.17" layer="1"/>
+<smd name="VS_8" x="5.5199" y="-5.3159" dx="0.74" dy="2.17" layer="1"/>
+<smd name="VS_9" x="4.0828" y="5.2677" dx="2.14" dy="2.87" layer="1"/>
+<smd name="VS_6" x="4.0779" y="-5.2663" dx="2.14" dy="2.87" layer="1"/>
+<smd name="VS_4" x="-4.0748" y="-5.2645" dx="2.14" dy="2.87" layer="1"/>
+<smd name="VS" x="-4.079" y="5.265" dx="2.14" dy="2.87" layer="16" cream="no"/>
+<smd name="OUTB2@PAD" x="-1.37" y="4.27" dx="2.3" dy="3.01" layer="1"/>
+<smd name="OUTB1@PAD" x="1.37" y="4.26" dx="2.3" dy="3.01" layer="1"/>
+<smd name="OUTA1@PAD" x="1.37" y="-4.27" dx="2.3" dy="3.01" layer="1"/>
+<smd name="OUTA2@PAD" x="-1.37" y="-4.26" dx="2.3" dy="3.01" layer="16" cream="no"/>
+<smd name="GND@PAD" x="0.038" y="0.002" dx="4.69" dy="5.5" layer="16" rot="R90" cream="no"/>
+<rectangle x1="3.01" y1="-6.7" x2="5.15" y2="-3.83" layer="2"/>
+<rectangle x1="3.01" y1="-6.7" x2="5.15" y2="-3.83" layer="15"/>
+<rectangle x1="-5.15" y1="3.83" x2="-3.01" y2="6.7" layer="15"/>
+<rectangle x1="-5.15" y1="3.83" x2="-3.01" y2="6.7" layer="2"/>
+<rectangle x1="3.01" y1="3.83" x2="5.15" y2="6.7" layer="2"/>
+<rectangle x1="3.01" y1="3.83" x2="5.15" y2="6.7" layer="15"/>
+<rectangle x1="-5.15" y1="-6.7" x2="-3.01" y2="-3.83" layer="15"/>
+<rectangle x1="-5.15" y1="-6.7" x2="-3.01" y2="-3.83" layer="2"/>
+<smd name="VS1" x="-4.079" y="5.265" dx="2.14" dy="2.87" layer="1"/>
+<smd name="OUTB2@PAD1" x="-1.37" y="4.27" dx="2.3" dy="3.01" layer="16" cream="no"/>
+<smd name="OUTB1@PAD1" x="1.37" y="4.26" dx="2.3" dy="3.01" layer="16" cream="no"/>
+<smd name="VS_28" x="4.0828" y="5.2677" dx="2.14" dy="2.87" layer="16" cream="no"/>
+<smd name="GND@PAD1" x="0.038" y="0.002" dx="4.69" dy="5.5" layer="1" rot="R90"/>
+<smd name="VS_29" x="-4.0748" y="-5.2645" dx="2.14" dy="2.87" layer="16" cream="no"/>
+<smd name="OUTA2@PAD1" x="-1.37" y="-4.26" dx="2.3" dy="3.01" layer="1"/>
+<smd name="OUTA1@PAD1" x="1.37" y="-4.27" dx="2.3" dy="3.01" layer="16" cream="no"/>
+<smd name="VS_30" x="4.0779" y="-5.2663" dx="2.14" dy="2.87" layer="16" cream="no"/>
+<rectangle x1="-2.52" y1="2.76" x2="-0.22" y2="5.77" layer="2"/>
+<rectangle x1="0.22" y1="2.76" x2="2.52" y2="5.77" layer="15"/>
+<rectangle x1="-2.519646875" y1="-5.76559375" x2="-0.219646875" y2="-2.75559375" layer="15"/>
+<rectangle x1="0.22054375" y1="-5.77036875" x2="2.52054375" y2="-2.76036875" layer="15"/>
+<rectangle x1="-2.520571875" y1="2.765053125" x2="-0.220571875" y2="5.775053125" layer="15"/>
+<rectangle x1="0.2199125" y1="2.760275" x2="2.5199125" y2="5.770275" layer="2"/>
+<rectangle x1="0.22014375" y1="-5.770209375" x2="2.52014375" y2="-2.760209375" layer="2"/>
+<rectangle x1="-2.5197875" y1="-5.764753125" x2="-0.2197875" y2="-2.754753125" layer="2"/>
+<rectangle x1="-2.7108125" y1="-2.34199375" x2="2.78775625" y2="2.3466125" layer="2"/>
+<rectangle x1="-2.7108125" y1="-2.34199375" x2="2.78775625" y2="2.3466125" layer="15"/>
+</package>
+</packages>
+<symbols>
+<symbol name="POWERSTEP01">
+<wire x1="-21.844" y1="30.734" x2="35.052" y2="30.734" width="0.254" layer="94"/>
+<wire x1="35.052" y1="30.734" x2="35.052" y2="-32.766" width="0.254" layer="94"/>
+<wire x1="35.052" y1="-32.766" x2="-21.844" y2="-32.766" width="0.254" layer="94"/>
+<wire x1="-21.844" y1="-32.766" x2="-21.844" y2="30.734" width="0.254" layer="94"/>
+<pin name="VS@1" x="3.302" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="OUTB2@2" x="40.132" y="-19.812" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@1" x="-8.89" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="SENSEB_S" x="16.256" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="CS" x="-26.924" y="-2.794" visible="pin" length="middle"/>
+<pin name="CK" x="-26.924" y="-4.826" visible="pin" length="middle"/>
+<pin name="SDI" x="-26.924" y="-8.89" visible="pin" length="middle"/>
+<pin name="VDDIO" x="-26.924" y="7.874" visible="pin" length="middle"/>
+<pin name="SDO" x="-26.924" y="-6.858" visible="pin" length="middle"/>
+<pin name="BUSY/SYNC" x="-26.924" y="-14.478" visible="pin" length="middle"/>
+<pin name="FLAG" x="-26.924" y="-16.51" visible="pin" length="middle"/>
+<pin name="STCK" x="-26.924" y="-20.828" visible="pin" length="middle"/>
+<pin name="SW" x="-26.924" y="-23.114" visible="pin" length="middle"/>
+<pin name="STBY/RESET" x="-26.924" y="2.54" visible="pin" length="middle"/>
+<pin name="SENSEA_S" x="7.366" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@2" x="-6.604" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTA2@1" x="40.132" y="7.874" visible="pin" length="middle" rot="R180"/>
+<pin name="VS@4" x="10.16" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="OUTA2@2" x="40.132" y="5.588" visible="pin" length="middle" rot="R180"/>
+<pin name="SENSEA_P@2" x="5.08" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTA2@3" x="40.132" y="3.302" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTA1@1" x="40.132" y="19.05" visible="pin" length="middle" rot="R180"/>
+<pin name="SENSEA_P@1" x="2.794" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTA1@3" x="40.132" y="14.478" visible="pin" length="middle" rot="R180"/>
+<pin name="VS@3" x="7.874" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="OUTA1@2" x="40.132" y="16.764" visible="pin" length="middle" rot="R180"/>
+<pin name="ADCIN" x="40.132" y="27.432" visible="pin" length="middle" rot="R180"/>
+<pin name="VS@5" x="12.446" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="VBOOT" x="-10.16" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="CP" x="-5.842" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="VCC" x="-26.924" y="21.336" visible="pin" length="middle"/>
+<pin name="GND@3" x="-4.318" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="VCCREG" x="-26.924" y="15.494" visible="pin" length="middle"/>
+<pin name="VSREG" x="-26.924" y="25.908" visible="pin" length="middle"/>
+<pin name="VREG" x="-26.924" y="10.668" visible="pin" length="middle"/>
+<pin name="OSCIN" x="-26.924" y="-28.956" visible="pin" length="middle"/>
+<pin name="OSCOUT" x="-26.924" y="-26.924" visible="pin" length="middle"/>
+<pin name="OUTB1@1" x="40.132" y="-3.81" visible="pin" length="middle" rot="R180"/>
+<pin name="VS@2" x="5.588" y="35.814" visible="pin" length="middle" rot="R270"/>
+<pin name="OUTB1@2" x="40.132" y="-6.096" visible="pin" length="middle" rot="R180"/>
+<pin name="SENSEB_P@1" x="13.97" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTB1@3" x="40.132" y="-22.098" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTB2@1" x="40.132" y="-17.526" visible="pin" length="middle" rot="R180"/>
+<pin name="SENSEB_P@2" x="11.684" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTB2@3" x="40.132" y="-8.382" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTB2@PAD" x="40.132" y="-10.668" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTB1@PAD" x="40.132" y="-24.384" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@PAD" x="-2.032" y="-37.846" visible="pin" length="middle" rot="R90"/>
+<pin name="OUTA2@PAD" x="40.132" y="1.016" visible="pin" length="middle" rot="R180"/>
+<pin name="OUTA1@PAD" x="40.132" y="12.192" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POWERSTEP01">
+<gates>
+<gate name="G$1" symbol="POWERSTEP01" x="-12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="POWERSTEP01">
+<connects>
+<connect gate="G$1" pin="ADCIN" pad="ADCIN"/>
+<connect gate="G$1" pin="BUSY/SYNC" pad="BUSY/SYNC"/>
+<connect gate="G$1" pin="CK" pad="CK"/>
+<connect gate="G$1" pin="CP" pad="CP"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="FLAG" pad="FLAG"/>
+<connect gate="G$1" pin="GND@1" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND_1"/>
+<connect gate="G$1" pin="GND@3" pad="GND_2"/>
+<connect gate="G$1" pin="GND@PAD" pad="GND@PAD GND@PAD1"/>
+<connect gate="G$1" pin="OSCIN" pad="OSCIN"/>
+<connect gate="G$1" pin="OSCOUT" pad="OSCOUT"/>
+<connect gate="G$1" pin="OUTA1@1" pad="OUTA1"/>
+<connect gate="G$1" pin="OUTA1@2" pad="OUTA1_1"/>
+<connect gate="G$1" pin="OUTA1@3" pad="OUTA1_2"/>
+<connect gate="G$1" pin="OUTA1@PAD" pad="OUTA1@PAD OUTA1@PAD1"/>
+<connect gate="G$1" pin="OUTA2@1" pad="OUTA2"/>
+<connect gate="G$1" pin="OUTA2@2" pad="OUTA2_1"/>
+<connect gate="G$1" pin="OUTA2@3" pad="OUTA2_2"/>
+<connect gate="G$1" pin="OUTA2@PAD" pad="OUTA2@PAD OUTA2@PAD1"/>
+<connect gate="G$1" pin="OUTB1@1" pad="OUTB1@1"/>
+<connect gate="G$1" pin="OUTB1@2" pad="OUTB1_1"/>
+<connect gate="G$1" pin="OUTB1@3" pad="OUTB1_2"/>
+<connect gate="G$1" pin="OUTB1@PAD" pad="OUTB1@PAD OUTB1@PAD1"/>
+<connect gate="G$1" pin="OUTB2@1" pad="OUTB2"/>
+<connect gate="G$1" pin="OUTB2@2" pad="OUTB2_1"/>
+<connect gate="G$1" pin="OUTB2@3" pad="OUTB2_2"/>
+<connect gate="G$1" pin="OUTB2@PAD" pad="OUTB2@PAD OUTB2@PAD1"/>
+<connect gate="G$1" pin="SDI" pad="SDI"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
+<connect gate="G$1" pin="SENSEA_P@1" pad="SENSEA_P"/>
+<connect gate="G$1" pin="SENSEA_P@2" pad="SENSEA_P@1"/>
+<connect gate="G$1" pin="SENSEA_S" pad="SENSEA_S"/>
+<connect gate="G$1" pin="SENSEB_P@1" pad="SENSEB_P"/>
+<connect gate="G$1" pin="SENSEB_P@2" pad="SENSEB_P@1"/>
+<connect gate="G$1" pin="SENSEB_S" pad="SENSEB_S"/>
+<connect gate="G$1" pin="STBY/RESET" pad="STBY/RESET"/>
+<connect gate="G$1" pin="STCK" pad="STCK"/>
+<connect gate="G$1" pin="SW" pad="SW"/>
+<connect gate="G$1" pin="VBOOT" pad="VBOOT"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VCCREG" pad="VCCREG"/>
+<connect gate="G$1" pin="VDDIO" pad="VDDIO"/>
+<connect gate="G$1" pin="VREG" pad="VREG"/>
+<connect gate="G$1" pin="VS@1" pad="VS VS1 VS_1 VS_2"/>
+<connect gate="G$1" pin="VS@2" pad="VS_3 VS_4 VS_5 VS_29"/>
+<connect gate="G$1" pin="VS@3" pad="VS_6 VS_7 VS_8 VS_30"/>
+<connect gate="G$1" pin="VS@4" pad="VS_9 VS_10 VS_11 VS_28"/>
+<connect gate="G$1" pin="VS@5" pad="VS_12"/>
+<connect gate="G$1" pin="VSREG" pad="VSREG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
