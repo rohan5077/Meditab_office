@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : E:/Rohan/Eagle/Powerstep_communication/task_eagle.brd
 
-Start at      : 21:11:31 (01-06-2018)
-End at        : 21:12:30 (01-06-2018)
-Elapsed time  : 00:00:58
+Start at      : 22:52:31 (05-06-2018)
+End at        : 22:54:25 (05-06-2018)
+Elapsed time  : 00:01:48
 
-Signals       :    85   RoutingGrid: 9 mil  Layers: 2
-Connections   :   309   predefined:  0 ( 0 Vias )
+Signals       :    98   RoutingGrid: 4.5 mil  Layers: 2
+Connections   :   273   predefined:  106 ( 30 Vias )
 
-Router memory :   631680
+Router memory :   4705920
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8
 
-Time per pass     :  00:00:22  00:00:21  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:01  00:00:02  00:00:02
-Number of Ripups  :         0        78         0         0         0         0         0         0         0         0
-max. Level        :         0         2         0         0         0         0         0         0         0         0
-max. Total        :         0        80         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:25  00:00:30  00:00:09  00:00:08  00:00:06  00:00:06  00:00:07  00:00:06  00:00:06  00:00:05
+Number of Ripups  :         0        12         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0
+max. Total        :         0        46         0         0         0         0         0         0         0         0
 
-Routed            :        95       275       259       261       261       261       261       261       262       262
-Vias              :         0        92        71        64        63        61        57        56        56        55
-Resolution        :    30.7 %    89.0 %    83.8 %    84.5 %    84.5 %    84.5 %    84.5 %    84.5 %    84.8 %    84.8 %
+Routed            :        53       146       139       139       139       139       138       138       138       138
+Vias              :         0        49        55        53        51        51        49        51        45        45
+Resolution        :    58.2 %    92.3 %    89.7 %    89.7 %    89.7 %    89.7 %    89.4 %    89.4 %    89.4 %    89.4 %
 
-Final             : 84.8% finished
+Final             : 89.4% finished
